@@ -1,0 +1,51 @@
+<body>
+    <div class="wrapper">
+  <div class="header">
+    <h2>Verification Letters</h2>
+    <p>Get a verification letter from a licensed CPA in 24 hours.</p>
+      <p>Cost: <strong>$50</strong> for accredited investors and qualified purchasers.</p>
+  </div>
+
+
+  <form id="form" action="/verifications" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="XrCoDk61WLLHbGlv_EfnFgsVNG-bAg8ClWs8s_8t6-uTjKEfnRrkc0xaODIPcG5PcZllGGocYe9yvSmEl4VdRQ" />
+
+    <label for="verification_legal_name">Legal name</label>
+    <input placeholder="Legal name" autocomplete="name" required="required" type="text" name="verification[legal_name]" id="verification_legal_name" />
+    <label for="verification_street_address">Primary residence address</label>
+    <input placeholder="Street address" id="street_address_field" required="required" type="text" name="verification[street_address]" />
+    <div class="grouped-inputs second_row">
+      <input placeholder="City" required="required" type="text" name="verification[city]" id="verification_city" />
+      <input placeholder="State" required="required" type="text" name="verification[state]" id="verification_state" />
+      <input placeholder="Zip code" required="required" type="text" name="verification[zip_code]" id="verification_zip_code" />
+    </div>
+    <input placeholder="Country" id="country_field" required="required" type="text" name="verification[country]" />
+    <label>I'm verified because...</label>
+    <div class="reason">
+      <input name="verification[verification_reason_one]" type="hidden" value="0" /><input class="js-verification-reason-checkbox" type="checkbox" value="1" checked="checked" name="verification[verification_reason_one]" id="verification_verification_reason_one" /> <span class="checkmark"></span>
+      <label for="verification_verification_reason_one">I have a net worth over $1 million, excluding my primary residence</label>
+    </div>
+    <div class="reason">
+      <input name="verification[verification_reason_two]" type="hidden" value="0" /><input class="js-verification-reason-checkbox" type="checkbox" value="1" name="verification[verification_reason_two]" id="verification_verification_reason_two" /> <span class="checkmark"></span>
+      <label for="verification_verification_reason_two">I have made over $200K the past two years, and am on track to do so again this year</label>
+    </div>
+    <div class="reason">
+      <input name="verification[verification_reason_three]" type="hidden" value="0" /><input class="js-verification-reason-checkbox" type="checkbox" value="1" name="verification[verification_reason_three]" id="verification_verification_reason_three" /> <span class="checkmark"></span>
+      <label for="verification_verification_reason_three">I have a net worth over $5 million, <em>including</em> illiquid startup stock, i.e. qualified purchaser</label>
+    </div>
+    <label>Supporting documents</label>
+    <div class="relative">
+      <input class="simple-file-upload" id="simple-file-upload" type="hidden" name="verification[supporting_documents_url]" />
+      <button id="file-upload-container"><i class="file-upload-icon"></i><span id="file-upload-button-text">Upload supporting documents as ZIP</span></button>
+    </div>
+    <label>Email address</label>
+    <input placeholder="Email address" autocomplete="email" required="required" type="text" name="verification[email_address]" id="verification_email_address" />
+
+      <label>Payment info</label>
+
+      <input id="payment-intent-id" type="hidden" name="verification[payment_intent_id]" />
+      <div id="card-element"><!--Stripe.js injects the Card Element--></div>
+
+    <button id="submit-btn" type="submit">Submit information for verification</button>
+
+      <span class="powered-by-stripe">Powered by <strong>stripe</strong></span>
+</form>

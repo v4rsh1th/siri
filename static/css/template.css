@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+body {
+  /*font-family: Roboto, Arial, sans-serif;*/
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  color: #333333;
+}
+
+:root {
+  --mainColor: #ff9800;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 45px;
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .4s;
+}
+
+h1:hover {
+  background-size: 4px 50px;
+}
+
+.wrapper, nav {
+  max-width: 600px;
+  margin: 0 auto 10px;
+  padding: 0 25px
+}
+
+nav {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.wrapper p,
+.wrapper label {
+  display: block;
+}
+
+.wrapper p {
+  margin-top: 20px;
+  line-height: 150%;
+}
+
+.header p strong {
+  font-weight: bold
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    margin-top: 30px
+  }
+  .header h2 {
+    text-indent: 0;
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+    background: none;
+    left: 0;
+    height: auto
+  }
+  .header h2+p {
+    margin-top: 25px
+  }
+}
+ 
+a {
+  text-decoration: none;
+  color: var(--color-link);
+  outline: none;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+a {
+  border-bottom: 1px solid #453886;
+  /*color: #453886;*/
+  padding-bottom: .25em;
+  text-decoration: none;
+}
+
+a:hover {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  text-decoration: none;
+}
