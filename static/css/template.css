@@ -64,34 +64,6 @@ nav {
 .gallery_body img {
   width: 100%;
 }
-
-@media only screen and (max-width: 600px) {
-  nav {
-    font-size: 16px;
-  }
-
-  h1 {
-    font-size: 38px;
-  }
-
-  iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
-
-  a:hover {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
-  background-position: bottom;
-  background-repeat: repeat-x;
-  background-size: 20%;
-  border-bottom: 0;
-  padding-bottom: .3em;
-  text-decoration: none;
-}
-
-}
  
 a {
   text-decoration: none;
@@ -120,4 +92,31 @@ a:hover {
   border-bottom: 0;
   padding-bottom: .3em;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  a:hover {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
+  }
 }
