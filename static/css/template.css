@@ -63,6 +63,7 @@ nav {
 
 .gallery_body img {
   width: 100%;
+  border-radius: 4px;
 }
  
 a {
