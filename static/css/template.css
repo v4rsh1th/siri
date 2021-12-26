@@ -13,6 +13,13 @@ body {
   --mainColor: #ff9800;
 }
 
+#main_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2px;
+}
+
 h1 {
   font-family: 'Playfair Display', serif;
   font-size: 45px;
