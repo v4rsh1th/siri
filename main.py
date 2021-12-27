@@ -4,23 +4,28 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-  return render_template('home.html')
+  title = "Siri Herbal Beauty Parlour"
+  return render_template('home.html', title=title)
 
 @app.route("/services")
 def services():
-  return render_template('services.html')
+  title = "SERVICES — Siri"
+  return render_template('services.html', title=title)
 
 @app.route("/about")
 def about():
-  return render_template('about.html')
+  title = "ABOUT — Siri"
+  return render_template('about.html', title=title)
 
 @app.route("/gallery")
 def gallery():
-  return render_template('gallery.html')
+  title = "GALLERY — Siri"
+  return render_template('gallery.html', title=title)
 
 @app.route("/contact")
 def contact():
-  return render_template('contact.html')
+  title = "CONTACT — Siri"
+  return render_template('contact.html', title=title)
     
 if __name__ == "__main__":
   app.run(debug=True)

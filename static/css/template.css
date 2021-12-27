@@ -132,4 +132,27 @@ a:hover {
     padding-bottom: .3em;
     text-decoration: none;
   }
+
+  .payment-icons {  
+    cursor: default; 
+    display: flex;
+    color: transparent;
+    justify-content: space-evenly;
+  }
+
+  .payment-icons li {
+    text-align: center;
+  }
+}
+
+.payment-icons {  
+  cursor: default; 
+  display: flex;
+  color: transparent;
+  justify-content: space-evenly;
+}
+
+.payment-icons li {
+  text-align: center;
+  
 }
