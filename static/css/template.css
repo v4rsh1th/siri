@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
 
 body {
   font-family: 'Cormorant Garamond', serif;
@@ -39,13 +40,13 @@ h1:hover {
 .wrapper, nav {
   max-width: 600px;
   margin: 0 auto 10px;
-  padding: 0 25px
+  padding: 0 25px;
 }
 
 nav {
   text-align: center;
   padding-top: 30px;
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -57,6 +58,25 @@ nav {
 .wrapper p {
   margin-top: 20px;
   line-height: 150%;
+}
+
+.wrapper_two {
+  background: #f5efe0;
+  max-width: 800px;
+  margin: 0 auto 10px;
+  padding: 0 25px;
+}
+
+.wrapper_two p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.what_siri_offer {
+  text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 14px;
+  text-decoration: underline;
 }
 
 .header p strong {
@@ -132,27 +152,4 @@ a:hover {
     padding-bottom: .3em;
     text-decoration: none;
   }
-
-  .payment-icons {  
-    cursor: default; 
-    display: flex;
-    color: transparent;
-    justify-content: space-evenly;
-  }
-
-  .payment-icons li {
-    text-align: center;
-  }
-}
-
-.payment-icons {  
-  cursor: default; 
-  display: flex;
-  color: transparent;
-  justify-content: space-evenly;
-}
-
-.payment-icons li {
-  text-align: center;
-  
 }
