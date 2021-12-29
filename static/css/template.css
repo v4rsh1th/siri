@@ -75,9 +75,7 @@ nav {
 .what_siri_offer {
   text-align: center;
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 14px;
-  width: 50%
-  text-decoration: underline;
+  font-size: 13px;
 }
 
 .header p strong {
@@ -112,7 +110,6 @@ a {
 
 a {
   border-bottom: 1px solid #453886;
-  /*color: #453886;*/
   padding-bottom: .25em;
   text-decoration: none;
 }
