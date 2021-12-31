@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
 
+html {
+  background-color: #f5efe0;
+}
+
 body {
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
@@ -62,7 +66,7 @@ nav {
 }
 
 .wrapper_two {
-  background: #f5efe0;
+  /*background: #f5efe0;*/
   max-width: 800px;
   margin: 0 auto 10px;
   padding: 0 25px;
@@ -75,6 +79,15 @@ nav {
 
 .what_siri_offer {
   text-align: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 13px;
+}
+
+.services_link_div {
+  text-align: center;
+}
+
+.services_link_div a {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 13px;
 }
