@@ -96,6 +96,11 @@ nav {
   font-weight: bold
 }
 
+.main_pic_block img {
+  width: 100%;
+  border-radius: 2px;
+}
+
 .about_body p {
   text-align: justify;
   text-justify: inter-word;
