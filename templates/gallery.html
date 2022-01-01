@@ -4,9 +4,32 @@
       <div class="header">
         <h1>Gallery</h1>
       </div>
+    </div>
+    <div class="wrapper_two">
       <div class="gallery_body">
-        <img src="{{ url_for('static', filename='images/shbp_main.jpg') }}" alt="main_pamphlet" /> <br/><br/>
-        <img src="{{ url_for('static', filename='images/route_map.png') }}" alt="route map" />
+        <div class="lounge_picture">
+          <strong><p>Lounge</p></strong>
+          <img src="{{ url_for('static', filename='images/lounge_parlour.jpg') }}" alt="Lounge" />
+        </div><br>
+        <div class="main_parlour_pic">
+          <strong><p>Salon</p></strong>
+          <img src="{{ url_for('static', filename='images/parlour_1.jpg') }}" alt="Salon" />
+        </div><br>
+        <div class="main_parlour_pic_right">
+          <img src="{{ url_for('static', filename='images/parlour_3.jpg') }}" alt="Salon" />
+        </div><br>
+        <div class="at_work">
+          <strong><p>At work</p></strong>
+          <img src="{{ url_for('static', filename='images/at_work.jpg') }}" alt="At work" />
+        </div><br>
+        <div class="main_pamphlet">
+          <strong><p>Pamphlet</p></strong>
+          <img src="{{ url_for('static', filename='images/shbp_main.jpg') }}" alt="Pamphlet" />
+        </div><br>
+        <div class="main_pamphlet">
+          <strong><p>Route map</p></strong>
+          <img src="{{ url_for('static', filename='images/route_map.png') }}" alt="Route map" />
+        </div><br>
       </div>
     </div>
 {% endblock %}
