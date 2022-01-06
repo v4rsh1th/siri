@@ -93,6 +93,10 @@ nav {
   font-size: 13px;
 }
 
+#typeof {
+  text-decoration: underline;
+}
+
 .header p strong {
   font-weight: bold;
 }
@@ -106,6 +110,10 @@ nav {
 .about_body p {
   text-align: justify;
   text-justify: inter-word;
+}
+
+.gallery_body p {
+  text-decoration: underline;
 }
 
 .gallery_body img {
