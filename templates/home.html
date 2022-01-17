@@ -1,39 +1,44 @@
 {% extends "template.html" %}
 {% block content %}
-    <div class="wrapper">
-      <div class="header">
-        <h1 id="main_title">Siri Herbal Beauty Parlour</h1>
-      </div>
-    </div>
-    <div class="wrapper_two">
-      <p>
-        At SHBP, our mission is to create a unique tailored service to each and every single one of our clients. Armed with our experience and ongoing continual training to keep on trend and up to date, we believe we can create bespoke beauty services to suit you.
-      </p>
-      <div class="what_siri_offer">
-        <h3> &bull; &nbsp; WHAT SIRI BEAUTY HAS TO OFFER &nbsp; &bull;<h3>
-      </div>
-      <div class="tell">
-        <p>
-          We are passionate about delivering and educating each individual client on their beauty and well-being journey. We know our products inside and out we love creating bespoke beauty home packages as well at tips and tricks to keep you looking amazing in between appointments.
-        </p>
-      </div>
-      <div class="services_link_div">
-        <p>We specialize in women haircare & cutting, hair coloring, highlights, balayage, organic bleach & tone, facials and a vast array of other Salon and beauty services.</p>
-        <strong><a href="/services">SEE FULL LIST OF SERVICES</a></strong>
-      </div> <br>
-      <div class="main_pic_block">
-        <img src="{{ url_for('static', filename='images/parlour_1_crop.jpg') }}" alt="Main" />
-      </div>
-      <div class="meet_the_team">
-        <h3> &bull; &nbsp; MEET THE TEAM &nbsp; &bull;</h3>
-        <img src="{{ url_for('static', filename='images/explain.png') }}" alt="Main" />
-      </div>
-      <p>
-        How can a visit to a beauty salon become an extraordinary experience — one which makes you look and feel great?
-        Begin with excellent stylists with deep experience. Meet the amazing people whose deep commitment to their craft
-        makes SHBP such a remarkable place.
-      </p>
-      <div class="footer">
-        &copy; 2022 Siri Herbal Beauty Parlour
-      </div>
-{% endblock %}
+<div class="wrapper">
+  <div class="header">
+    <h1 id="main_title">Siri Herbal Beauty Parlour</h1>
+  </div>
+</div>
+<div class="wrapper_two">
+  <p>
+    At SHBP, our mission is to create a unique tailored service to each and every single one of our clients. Armed with
+    our experience and ongoing continual training to keep on trend and up to date, we believe we can create bespoke
+    beauty services to suit you.
+  </p>
+  <div class="what_siri_offer">
+    <h3> &bull; &nbsp; WHAT SIRI BEAUTY HAS TO OFFER &nbsp; &bull;<h3>
+  </div>
+  <div class="tell">
+    <p>
+      We are passionate about delivering and educating each individual client on their beauty and well-being journey. We
+      know our products inside and out we love creating bespoke beauty home packages as well at tips and tricks to keep
+      you looking amazing in between appointments.
+    </p>
+  </div>
+  <div class="services_link_div">
+    <p>We specialize in women haircare & cutting, hair coloring, highlights, balayage, organic bleach & tone, facials
+      and a vast array of other Salon and beauty services.</p>
+    <strong><a href="/services">SEE FULL LIST OF SERVICES</a></strong>
+  </div> <br>
+  <div class="main_pic_block">
+    <img src="{{ url_for('static', filename='images/parlour_1_crop.jpg') }}" alt="Main" />
+  </div>
+  <div class="meet_the_team">
+    <h3> &bull; &nbsp; MEET THE TEAM &nbsp; &bull;</h3>
+    <img src="{{ url_for('static', filename='images/explain.png') }}" alt="Main" />
+  </div>
+  <p>
+    How can a visit to a beauty salon become an extraordinary experience — one which makes you look and feel great?
+    Begin with excellent stylists with deep experience. Meet the amazing people whose deep commitment to their craft
+    makes SHBP such a remarkable place.
+  </p>
+  <div class="footer">
+    &copy; 2022 Siri Herbal Beauty Parlour
+  </div>
+  {% endblock %}
