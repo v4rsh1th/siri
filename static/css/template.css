@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 
 html {
   background-color: #f5efe0;
@@ -93,10 +94,6 @@ nav {
   font-size: 13px;
 }
 
-/*#typeof {
-  text-decoration: underline;
-}
-*/
 .header p strong {
   font-weight: bold;
 }
@@ -112,7 +109,17 @@ nav {
   text-justify: inter-word;
 }
 
-.gallery_body p {
+.quote {
+  font-family: 'Lora', serif;
+  font-size: 40px;
+}
+
+.quote p {
+  font-size: 20px;
+  text-align: right;
+}
+
+.gallery_body strong {
   text-decoration: underline;
 }
 
@@ -169,6 +176,9 @@ a:hover {
   margin-top: 30px;
   border-top: 1px solid;
   padding-top: 20px;
+}
+
+.footer p {
   text-align: center;
 }
 
