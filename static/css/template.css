@@ -89,6 +89,10 @@ nav {
   text-align: center;
 }
 
+#see_full_list {
+  font-size: 16px;
+}
+
 .services_link_div a {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 13px;
